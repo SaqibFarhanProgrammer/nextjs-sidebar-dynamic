@@ -40,8 +40,8 @@ interface CategorySidebarProps {
 
 const CategorySidebar = ({ selectedCategory, onSelectCategory }: CategorySidebarProps) => {
   return (
-    <aside className="w-64 bg-sidebar border-r border-sidebar-border h-[calc(100vh-73px)] overflow-y-auto">
-      <div className="p-4">
+    <aside className="w-64 bg-sidebar border-r border-sidebar-border h-[calc(100vh-57px)] md:h-[calc(100vh-73px)] overflow-y-auto">
+      <div className="p-3 md:p-4">
         <h2 className="text-sm font-semibold text-sidebar-foreground mb-3 flex items-center gap-2">
           <div className="w-1 h-4 bg-primary rounded-full"></div>
           Categories
